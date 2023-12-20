@@ -18,6 +18,7 @@ class _StopWatchScreenState extends State<StopWatchScreen> {
   final List<String> _lapTimes = [];
 
   void _clickButton() {
+    // Hot Restart 를 추천
     _isRunning = !_isRunning;
 
     if (_isRunning) {
